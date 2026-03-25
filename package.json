@@ -1,0 +1,17 @@
+{
+  "name": "podcasts",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "src/server.ts",
+  "scripts": {
+    "test": "node --env-file=.env src/server.ts",
+    "test:watch": "node  --watch --env-file=.env  src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.5.0"
+  }
+}
